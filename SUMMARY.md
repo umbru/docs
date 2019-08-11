@@ -4,8 +4,8 @@
 
 ## First Steps
 
-* [What is Umbru?](first-steps/untitled.md)
-* [Features](first-steps/umbru.md)
+* [What is Umbru?](first-steps/whatis.md)
+* [Features](first-steps/features.md)
 * [Safety](first-steps/safety.md)
 * [Links and Information](first-steps/links-and-information.md)
 
