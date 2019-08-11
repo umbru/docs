@@ -52,3 +52,17 @@ DGW or Dark Gravity Wave is an open source difficulty-adjusting algorithm for Bi
 * Version 2.0 of DGW was implemented in Dash from block 45,000 onwards in order to completely alleviate the time-warp exploit.
 * Version 3.0 was implemented on May 14 of 2014 to further improve difficulty re-targeting with smoother transitions. It also fixes issues with various architectures that had different levels of floating-point accuracy through the use of integers.
 
+## Decentralized Governance
+
+Decentralized Governance, is Umbru's choice on how to solve two important problems in cryptocurrency: governance and funding. Governance in a decentralized project is difficult, because by definition there are no central authorities to make decisions for the project. In Umbru, such decisions are made by the network, that is, by the owners of masternodes. The governance system allows each masternode to vote once \(yes/no/abstain\) for each proposal. If a proposal passes, it can then be implemented \(or not\) by Umbru's developers.
+
+The governance system also provides a means for Umbru to fund its own development. While other projects have to depend on donations or premines, Umbru uses 10% of the block reward to fund its own development. Every time a block is mined, 10% is removed and held in 'escrow' on the blockchain and is not created until the end of the month. During the month, anybody can make a budget proposal to the network. If that proposal receives net approval of at least 10% of the masternode network, then at the end of the month a series of “superblocks” will be created. At that time, the block rewards that were not paid out \(10% of each block\) will be used to fund approved proposals. The network thus funds itself by reserving 10% of the block reward for budget projects.
+
+## Sentinel
+
+Sentinel is an autonomous agent for persisting, processing and automating Umbru governance objects and tasks. Sentinel is implemented as a Python application that binds to a local version umbrud instance on each Umbru masternode.
+
+A Governance Object \(or “govObject”\) is a generic structure that allows for the creation of Budget Proposals and Triggers. Class inheritance has been utilized to extend this generic object into a “Proposal” object to supplant the current Umbru budget system.
+
+![Diagram highlighting the relationship between Sentinel and Umbru Core](../.gitbook/assets/sentinel.png)
+
