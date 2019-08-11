@@ -1,11 +1,6 @@
----
-description: >-
-  Umbru is an open source peer-to-peer cryptocurrency with a strong focus on
-  privacy, decentralization and open source solutions for anyone and everyone to
-  build upon.
----
-
 # Welcome
+
+![Umbru, an open source p2p cryptocurrency with a strong focus on privacy and decentralization.](.gitbook/assets/asset-2.png)
 
 Based on the Bitcoin/Dash projects, Umbru aims to be the user friendly, private, decentralized and secure cryptocurrency of choice for old and new users alike. In the growing world of multiple cryptocurrencies arriving and departing almost daily, Umbru envisions slowly growing the ranks to become on par or surpass it's predecessors. Umbru currently operates a self-governing and self-funding model that enables the Dash network to pay individuals and businesses for work that adds value to the network.
 
