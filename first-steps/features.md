@@ -49,9 +49,6 @@ New features or versions of Umbru undergo extensive testing on testnet before th
 
 DGW or Dark Gravity Wave is an open source difficulty-adjusting algorithm for Bitcoin-based cryptocurrencies that was first used in Dash and has since appeared in other digital currencies. DGW was authored by Evan Duffield, the developer and creator of Dash, as a response to a time-warp exploit found in _Kimoto’s Gravity Well_. In concept, DGW is similar to the Kimoto Gravity Well, adjusting the difficulty levels every block \(instead of every 2016 blocks like Bitcoin\) based on statistical data from recently found blocks. This makes it possible to issue blocks with relatively consistent times, even if the hashing power experiences high fluctuations, without suffering from the time-warp exploit.
 
-* Version 2.0 of DGW was implemented in Dash from block 45,000 onwards in order to completely alleviate the time-warp exploit.
-* Version 3.0 was implemented on May 14 of 2014 to further improve difficulty re-targeting with smoother transitions. It also fixes issues with various architectures that had different levels of floating-point accuracy through the use of integers.
-
 ## Decentralized Governance
 
 Decentralized Governance, is Umbru's choice on how to solve two important problems in cryptocurrency: governance and funding. Governance in a decentralized project is difficult, because by definition there are no central authorities to make decisions for the project. In Umbru, such decisions are made by the network, that is, by the owners of masternodes. The governance system allows each masternode to vote once \(yes/no/abstain\) for each proposal. If a proposal passes, it can then be implemented \(or not\) by Umbru's developers.
