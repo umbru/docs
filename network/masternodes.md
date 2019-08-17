@@ -332,3 +332,30 @@ Output:
 II8JvEBMj6I3Ws8wqxh0bXVds6Ny+7h5HAQhqmd5r/0lWBCpsxMJHJT3KBcZ23oUZtsa6gjgISf+a8GzJg1BfEg=
 ```
 
+**Submit the signed message**
+
+We will now submit the ProRegTx special transaction to the blockchain to register the masternode. This command must be sent from a Umbru Core wallet holding a balance on either the `feeSourceAddress` or `payoutAddress`, since a standard transaction fee is involved. The command takes the following syntax:
+
+```text
+protx register_submit tx sig
+```
+
+Where:
+
+* `tx`: The serialized transaction previously returned in the `tx` output field from the `protx register_prepare` command
+* `sig`: The message signed with the collateral key from the `signmessage` command
+
+Example:
+
+```text
+protx register_submit 030001000175c9d23c2710798ef0788e6a4d609460586a20e91a15f2097f56fc6e007c4f8e0000000000feffffff01a1949800000000001976a91434b09363474b14d02739a327fe76e6ea12deecad88ac00000000d1010000000000e379580dcfea3eb6944bfbe1de5fa2317932e260acce4d9ff3ede5f4287a34160100000000000000000000000000ffff2d4ce6ef4e1fd47babdb9092489c82426623299dde76b9c72d9799f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670ed1935246865dce1accce6c8691c8466bd67ebf1200001976a914fef33f56f709ba6b08d073932f925afedaa3700488acfdb281e134504145b5f8c7bd7b47fd241f3b7ea1f97ebf382249f601a0187f5300 II8JvEBMj6I3Ws8wqxh0bXVds6Ny+7h5HAQhqmd5r/0lWBCpsxMJHJT3KBcZ23oUZtsa6gjgISf+a8GzJg1BfEg=
+```
+
+Output:
+
+```text
+aba8c22f8992d78fd4ff0c94cb19a5c30e62e7587ee43d5285296a4e6e5af062
+```
+
+Your masternode is now registered and will appear on the Deterministic Masternode List after the transaction is mined to a block. You can view this list on the **Masternodes -&gt; Umbru Masternodes** tab of the Umbru Core wallet, or in the console using the command `protx list valid`, where the txid of the final `protx register_submit` transaction identifies your masternode.
+
