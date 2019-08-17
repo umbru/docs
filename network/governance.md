@@ -61,7 +61,7 @@ gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c
 gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding abstain
 ```
 
-Note this command will trigger a vote from all masternodes voting addresses held in your wallet. If you want to vote with only some of your masternodes, you must change the command from `vote-many` to `vote`. If your vote was successful, you should see a confirmation message reading **Voted successfully**.
+Note this command will trigger a vote from all masternodes voting addresses held in your wallet. If you want to vote with only some of your masternodes, you must change the command from `vote-many` to `vote-alias`. If your vote was successful, you should see a confirmation message reading **Voted successfully**.
 
 #### Delegating votes
 
