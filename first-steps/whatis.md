@@ -18,3 +18,5 @@ Links to documents \(whitepapers, translations, feature spotlights\)
 
 The Umbru roadmap sets out delivery milestones for future releases of Umbru and includes specific technical details describing how the development team plans to realize each challenge.
 
+[https://umbru.io/\#roadmap](https://umbru.io/#roadmap)
+
