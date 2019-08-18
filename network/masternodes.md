@@ -289,10 +289,10 @@ Note that the operator is responsible for specifying their own reward address in
 
 ```text
 protx register_prepare
-  6d7280762db6e7322ccce9bed2c9664d7fc186e9f21cf68ebb22f29cafd94eed
+  16347a28f4e5edf39f4dceac60e2327931a25fdee1fb4b94b63eeacf0d5879e3
   1
   45.76.230.239:12353
-  UXvkAbdfwCXxGjaPDmAmw5uNqGHmEoFiNS
+  UdohSjHe3t9Z6DUYFJsTYTZwikQMRtZN3h
   99f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670e
   UdohSjHe3t9Z6DUYFJsTYTZwikQMRtZN3h
   0
