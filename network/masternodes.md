@@ -291,7 +291,7 @@ Note that the operator is responsible for specifying their own reward address in
 protx register_prepare
   6d7280762db6e7322ccce9bed2c9664d7fc186e9f21cf68ebb22f29cafd94eed
   1
-  45.76.230.239:19999
+  45.76.230.239:12353
   UXvkAbdfwCXxGjaPDmAmw5uNqGHmEoFiNS
   99f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670e
   UdohSjHe3t9Z6DUYFJsTYTZwikQMRtZN3h
