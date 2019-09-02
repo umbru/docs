@@ -12,7 +12,7 @@ Videos to be uploaded here.
 
 ## Documents
 
-Links to documents \(whitepapers, translations, feature spotlights\)
+Whitepaper \[ENG\] - [https://github.com/umbru/umbru-media/blob/master/Umbru\_Whitepaper\_1\_0\_ENG.pdf](https://github.com/umbru/umbru-media/blob/master/Umbru_Whitepaper_1_0_ENG.pdf)
 
 ## Roadmap
 
